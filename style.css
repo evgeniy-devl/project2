@@ -1,0 +1,138 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+#container{
+    display: flex;
+    height: 100vh;
+}
+
+#icon{
+    background-color: #4EB49C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:60px;
+    height:60px;
+    border-radius: 6px;
+}
+
+
+#left, #right{
+    width:50%
+}
+
+
+#right{
+    background-image: url(img.jpg);
+    background-position: center;
+}
+
+#header{
+    margin:40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main{
+    font-family: 'Playfair Display', serif;
+    width:410px;
+    margin-left: 125px;
+    margin-top: 65px;
+}
+
+#color-span{
+    color:#AAA713;
+}
+
+#welcome{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#login{
+    margin-bottom: 46px;
+    margin-top: 7px;
+    font-size:60px;
+    font-weight: 600;
+}
+
+#body-site{
+    display: flex;
+    flex-direction: column;
+}
+
+.input1{
+    font-family: 'Inter', sans-serif;
+    width: 385px;
+    height: 60px;
+    border-radius: 6px;
+    border:2px solid black;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.input2{
+    font-family: 'Inter', sans-serif;
+    margin-top:20px;
+    width: 385px;
+    height: 60px;
+    border-radius: 6px;
+    border:2px solid black;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+#under-input{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#button{
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+    background-color: #032D23;
+    font-weight: 600;
+    color:white;
+    width: 410px;
+    height: 64px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+#under-button{
+    font-family: 'Inter', sans-serif;
+    font-weight:400;
+    margin-top:25px;
+    font-size: 20px;
+}
+
+#span-gs{
+    font-size:20px;
+    font-weight:600;
+    color:#AAA713;
+}
+
+.input-p{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    accent-color: #AAA713;
+}
+
+#footer{
+    font-family: 'Inter', sans-serif;
+    margin-top:155px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#OF-color{
+    color: #AAA713;
+}
+
+#span-rm{
+    margin-left: 11.25px;
+}
